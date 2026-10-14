@@ -1,0 +1,18 @@
+# SAMPLE DATA — SYNTHETIC. Home-lab example only; not from any real environment or employer.
+hostname,serial,rack,position,role,notes
+web-01,SN10-0001,DFW-01-A01,42,server,clean match
+web-02,SN10-0002,DFW-01-A01,41,server,clean match
+web-03,SN10-0003,DFW-01-A01,40,server,clean match
+db-01,SN20-0001,DFW-01-A01,38,database,serial differs in NetBox -> serial_mismatch
+db-02,SN20-0002,DFW-01-A02,42,database,clean match
+cache-01,SN30-0001,DFW-01-A02,41,cache,absent from NetBox -> missing
+cache-02,SN30-0002,DFW-01-A02,40,cache,clean match
+mgmt-01,SN50-0001,DFW-01-A03,42,server,absent from NetBox -> missing
+sw-tor-1,SN40-0001,DFW-01-A01,2,switch,shares slot with sw-tor-2 -> position_conflict
+sw-tor-2,SN40-0002,DFW-01-A01,2,switch,shares slot with sw-tor-1 -> position_conflict
+kvm-01,SN60-0001,DFW-01-A03,10,kvm,clean match
+pdu-1,SN70-0001,DFW-01-A02,1,pdu,NetBox has no rack for this device -> unracked
+storage-01,SN90-0001,DFW-01-A03,30,storage,slot occupied in NetBox by rogue-01 -> position_conflict
+hyper-01,SN80-0001,DFW-01-A04,42,hypervisor,clean match
+hyper-02,SN80-0002,DFW-01-A04,41,hypervisor,clean match
+mon-01,SN55-0001,DFW-01-A03,38,monitoring,clean match

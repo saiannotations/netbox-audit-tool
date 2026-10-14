@@ -1,0 +1,18 @@
+# SAMPLE DATA — SYNTHETIC. Home-lab example only; not from any real environment or employer.
+id,name,device_role,serial,rack,position,status,site,tenant
+101,web-01,Server,SN10-0001,DFW-01-A01,42,active,DFW-01,lab
+102,web-02,Server,SN10-0002,DFW-01-A01,41,active,DFW-01,lab
+103,web-03,Server,SN10-0003,DFW-01-A01,40,active,DFW-01,lab
+201,db-01,Database,SN20-9999,DFW-01-A01,38,active,DFW-01,lab
+202,db-02,Database,SN20-0002,DFW-01-A02,42,active,DFW-01,lab
+302,cache-02,Cache,SN30-0002,DFW-01-A02,40,active,DFW-01,lab
+401,sw-tor-1,Switch,SN40-0001,DFW-01-A01,2,active,DFW-01,lab
+402,sw-tor-2,Switch,SN40-0002,DFW-01-A01,3,active,DFW-01,lab
+601,kvm-01,KVM,SN60-0001,DFW-01-A03,10,active,DFW-01,lab
+701,pdu-1,PDU,SN70-0001,,,active,DFW-01,lab
+901,storage-01,Storage,SN90-0001,DFW-01-A03,30,active,DFW-01,lab
+801,hyper-01,Hypervisor,SN80-0001,DFW-01-A04,42,active,DFW-01,lab
+802,hyper-02,Hypervisor,SN80-0002,DFW-01-A04,41,active,DFW-01,lab
+551,mon-01,Monitoring,SN55-0001,DFW-01-A03,38,active,DFW-01,lab
+999,old-nas-1,Storage,SN77-0001,DFW-01-A03,20,staged,DFW-01,lab
+998,rogue-01,Server,SN88-0001,DFW-01-A03,30,active,DFW-01,lab
